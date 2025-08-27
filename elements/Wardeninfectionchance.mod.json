@@ -1,0 +1,12 @@
+{
+  "_fv": 73,
+  "_type": "gamerule",
+  "definition": {
+    "type": "Number",
+    "displayName": "warden infection chance",
+    "description": "warden infection chance(MAX100%)",
+    "category": "MOBS",
+    "defaultValueLogic": false,
+    "defaultValueNumber": 2
+  }
+}

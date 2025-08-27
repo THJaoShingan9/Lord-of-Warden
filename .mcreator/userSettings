@@ -1,0 +1,20 @@
+{
+  "workspacePanelIconSize": "TILES",
+  "workspacePanelSortType": "CREATED",
+  "workspacePanelSortAscending": true,
+  "projectBrowserSplitPos": 0,
+  "projectBrowserState": {
+    "expandedPaths": [
+      "[, lord of warden]",
+      "[, lord of warden, Source (Gradle)]",
+      "[, lord of warden, Source (Gradle), D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net]",
+      "[, lord of warden, Source (Gradle), D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy]",
+      "[, lord of warden, Source (Gradle), D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden]",
+      "[, lord of warden, Source (Gradle), D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden\\client]",
+      "[, lord of warden, Source (Gradle), D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden\\client, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden\\client\\renderer]",
+      "[, lord of warden, Source (Gradle), D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden\\entity]",
+      "[, lord of warden, Source (Gradle), D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden\\init]",
+      "[, lord of warden, Source (Gradle), D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden, D:\\AAAAAAAAAAAAAAAA\\lord_of_warden\\src\\main\\java\\net\\entropy\\lordofwarden\\procedures]"
+    ]
+  }
+}

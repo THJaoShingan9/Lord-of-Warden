@@ -1,0 +1,10 @@
+{
+  "gamerule.wardeninfectionchance.description": "warden infection chance(MAX100%)",
+  "gamerule.wardeninfectionchance": "warden infection chance",
+  "translation.lfw.sculk": "Sculk ",
+  "gamerule.wardeninfectionblock": "warden block infection chance",
+  "entity.lord_of_warden.biomass_2": "Biomass 2",
+  "gamerule.wardeninfectionblock.description": "warden block infection chance(MAX100%)",
+  "entity.lord_of_warden.biomass": "Biomass",
+  "entity.lord_of_warden.biomass_3": "Biomass 3"
+}
