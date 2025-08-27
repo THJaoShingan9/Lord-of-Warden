@@ -49,7 +49,7 @@ public static void onLivingDeath(LivingDeathEvent event) {
             entitySupplier = () -> LordOfWardenModEntities.BIOMASS_3.get();
         }
 
-        // 在催发体 8 格内生成
+        // 在催发体 4 格内生成
         spawnEntityNear(level, catalystPos, 4, entitySupplier);
     }
 
