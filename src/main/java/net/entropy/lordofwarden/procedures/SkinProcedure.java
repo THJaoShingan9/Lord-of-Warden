@@ -11,23 +11,27 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = "lord_of_warden", value = Dist.CLIENT)
 public final class SkinProcedure {
 
-    private static final float[] WARDEN_BLUE = {0.0F, 0.1F, 0.5F, 1.0F}; // 预定义颜色
+    // 颜色
+    private static final float R = 0.00F;
+    private static final float G = 0.45F;
+    private static final float B = 0.60F;
+    private static final float A = 1.00F;
 
     @SubscribeEvent
     public static void onRenderLivingPre(RenderLivingEvent.Pre<? extends LivingEntity, ?> evt) {
         LivingEntity entity = evt.getEntity();
 
-        // 1. 恢复到默认颜色
+        // 恢复默认
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
 
-        // 2. 跳过监守者
+        // 跳过监守者
         if (entity instanceof Warden) {
             return;
         }
 
-        // 3. 只对 warden 队染色
+        // 只对 warden 队染色
         if (entity.getTeam() != null && "warden".equals(entity.getTeam().getName())) {
-            RenderSystem.setShaderColor(WARDEN_BLUE[0], WARDEN_BLUE[1], WARDEN_BLUE[2], WARDEN_BLUE[3]);
+            RenderSystem.setShaderColor(R, G, B, A);
         }
     }
 }
