@@ -1,5 +1,5 @@
 Java Launcher: C:\Users\tsndt\.mcreator\gradle\jdks\eclipse_adoptium-17-amd64-windows\jdk-17.0.16+8\bin\java.exe
-Arguments: '--inJar, C:\Users\tsndt\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0\forge-1.20.1-47.3.0-injected.jar, --outJar, C:\Users\tsndt\.mcreator\gradle\caches\forge_gradle\minecraft_user_repo\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, D:\AAAAAAAAAAAAAAAA\lord_of_warden\build\_atJar_4\parent_at.cfg'
+Arguments: '--inJar, D:\AAAAAAAAAAAAAAAA\lord_of_warden\build\fg_cache\net\minecraftforge\forge\1.20.1-47.3.0\forge-1.20.1-47.3.0-injected.jar, --outJar, D:\AAAAAAAAAAAAAAAA\lord_of_warden\build\fg_cache\net\minecraftforge\forge\1.20.1-47.3.0_mapped_official_1.20.1\forge-1.20.1-47.3.0_mapped_official_1.20.1.jar, --logFile, accesstransform.log, --atFile, D:\AAAAAAAAAAAAAAAA\lord_of_warden\accesstransformer.cfg, --atFile, D:\AAAAAAAAAAAAAAAA\lord_of_warden\build\_atJar_4\parent_at.cfg'
 Classpath:
  - C:\Users\tsndt\.mcreator\gradle\caches\forge_gradle\maven_downloader\net\minecraftforge\accesstransformers\8.2.1\accesstransformers-8.2.1-fatjar.jar
 Working directory: D:\AAAAAAAAAAAAAAAA\lord_of_warden\build\_atJar_4

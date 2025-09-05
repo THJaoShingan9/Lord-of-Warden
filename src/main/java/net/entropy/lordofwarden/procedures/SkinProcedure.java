@@ -1,8 +1,15 @@
 package net.entropy.lordofwarden.procedures;
 
-import com.mojang.blaze3d.systems.RenderSystem;
+import com.mojang.blaze3d.vertex.PoseStack;
+import net.minecraft.client.Minecraft;
+import net.minecraft.client.renderer.MultiBufferSource;
+import net.minecraft.client.renderer.entity.ItemRenderer;
+import net.minecraft.client.renderer.texture.OverlayTexture;
+import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.monster.warden.Warden;
+import net.minecraft.world.item.ItemDisplayContext;
+import net.minecraft.world.item.Items;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -11,23 +18,41 @@ import net.minecraftforge.fml.common.Mod;
 @Mod.EventBusSubscriber(modid = "lord_of_warden", value = Dist.CLIENT)
 public final class SkinProcedure {
 
-    private static final float[] WARDEN_BLUE = {0.0F, 0.1F, 0.5F, 1.0F}; // 预定义颜色
+    private SkinProcedure() {}
 
     @SubscribeEvent
-    public static void onRenderLivingPre(RenderLivingEvent.Pre<? extends LivingEntity, ?> evt) {
+    public static void onRenderLivingPost(RenderLivingEvent.Post<? extends LivingEntity, ?> evt) {
         LivingEntity entity = evt.getEntity();
+        if (entity instanceof Warden) return;
+        if (entity.getTeam() == null || !"warden".equals(entity.getTeam().getName())) return;
 
-        // 1. 恢复到默认颜色
-        RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
+        PoseStack pose = evt.getPoseStack();
+        MultiBufferSource buffer = evt.getMultiBufferSource();
 
-        // 2. 跳过监守者
-        if (entity instanceof Warden) {
-            return;
-        }
+        Minecraft mc = Minecraft.getInstance();
+        ItemRenderer itemRenderer = mc.getItemRenderer();
 
-        // 3. 只对 warden 队染色
-        if (entity.getTeam() != null && "warden".equals(entity.getTeam().getName())) {
-            RenderSystem.setShaderColor(WARDEN_BLUE[0], WARDEN_BLUE[1], WARDEN_BLUE[2], WARDEN_BLUE[3]);
-        }
+        pose.pushPose();
+        // 头顶 0.25 格
+        pose.translate(0, entity.getBbHeight() + 0.25F, 0);
+        // 不朝向玩家
+        // 方块一半大小
+        pose.scale(0.5F, 0.5F, 0.5F);
+
+        BakedModel model = itemRenderer.getModel(
+                Items.SCULK_SHRIEKER.getDefaultInstance(),
+                entity.level(), null, 0);
+
+        itemRenderer.render(
+                Items.SCULK_SHRIEKER.getDefaultInstance(),
+                ItemDisplayContext.NONE,   // 按方块模型渲染
+                false,
+                pose,
+                buffer,
+                0xF000F0,
+                OverlayTexture.NO_OVERLAY,
+                model);
+
+        pose.popPose();
     }
 }

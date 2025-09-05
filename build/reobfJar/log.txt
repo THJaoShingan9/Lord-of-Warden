@@ -135,8 +135,8 @@ Reading Input: D:\AAAAAAAAAAAAAAAA\lord_of_warden\build\libs\modid-1.0.jar
 Adding input to inheritance map
 Processing entries
 Conflicting propagated mapping for net/entropy/lordofwarden/client/renderer/Biomass3Renderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
-Conflicting propagated mapping for net/entropy/lordofwarden/client/renderer/Biomass2Renderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/entropy/lordofwarden/client/renderer/BiomassRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
+Conflicting propagated mapping for net/entropy/lordofwarden/client/renderer/Biomass2Renderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation; from net/minecraft/client/renderer/entity/EntityRenderer/getTextureLocation(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/resources/ResourceLocation;: getTextureLocation -> m_5478_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entity/ignoreExplosion()Z from net/minecraft/world/entity/Entity/ignoreExplosion()Z: ignoreExplosion -> m_6128_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
@@ -145,25 +145,29 @@ Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entit
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
-Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entity/fireImmune()Z from net/minecraft/world/entity/Entity/fireImmune()Z: fireImmune -> m_5825_
-Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
+Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass3Entity/fireImmune()Z from net/minecraft/world/entity/Entity/fireImmune()Z: fireImmune -> m_5825_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/ignoreExplosion()Z from net/minecraft/world/entity/Entity/ignoreExplosion()Z: ignoreExplosion -> m_6128_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
+Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
+Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/fireImmune()Z from net/minecraft/world/entity/Entity/fireImmune()Z: fireImmune -> m_5825_
+Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet; from net/minecraft/world/entity/Entity/getAddEntityPacket()Lnet/minecraft/network/protocol/Packet;: getAddEntityPacket -> m_5654_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/ignoreExplosion()Z from net/minecraft/world/entity/Entity/ignoreExplosion()Z: ignoreExplosion -> m_6128_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z from net/minecraft/world/entity/LivingEntity/hurt(Lnet/minecraft/world/damagesource/DamageSource;F)Z: hurt -> m_6469_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/getMobType()Lnet/minecraft/world/entity/MobType; from net/minecraft/world/entity/LivingEntity/getMobType()Lnet/minecraft/world/entity/MobType;: getMobType -> m_6336_
-Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/registerGoals()V from net/minecraft/world/entity/Mob/registerGoals()V: registerGoals -> m_8099_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/removeWhenFarAway(D)Z from net/minecraft/world/entity/Mob/removeWhenFarAway(D)Z: removeWhenFarAway -> m_6785_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/getMyRidingOffset()D from net/minecraft/world/entity/Entity/getMyRidingOffset()D: getMyRidingOffset -> m_6049_
-Conflicting propagated mapping for net/entropy/lordofwarden/entity/BiomassEntity/fireImmune()Z from net/minecraft/world/entity/Entity/fireImmune()Z: fireImmune -> m_5825_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/baseTick()V from net/minecraft/world/entity/Mob/baseTick()V: baseTick -> m_6075_
 Conflicting propagated mapping for net/entropy/lordofwarden/entity/Biomass2Entity/fireImmune()Z from net/minecraft/world/entity/Entity/fireImmune()Z: fireImmune -> m_5825_
+Conflicting propagated mapping for net/entropy/lordofwarden/item/PurifyPotionItem/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V from net/minecraft/world/item/Item/appendHoverText(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Ljava/util/List;Lnet/minecraft/world/item/TooltipFlag;)V: appendHoverText -> m_7373_
+Conflicting propagated mapping for net/entropy/lordofwarden/item/PurifyPotionItem/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim; from net/minecraft/world/item/Item/getUseAnimation(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/UseAnim;: getUseAnimation -> m_6164_
+Conflicting propagated mapping for net/entropy/lordofwarden/item/PurifyPotionItem/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack; from net/minecraft/world/item/Item/finishUsingItem(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/LivingEntity;)Lnet/minecraft/world/item/ItemStack;: finishUsingItem -> m_5922_
+Conflicting propagated mapping for net/minecraftforge/event/BuildCreativeModeTabContentsEvent/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V from net/minecraft/world/item/CreativeModeTab$Output/accept(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/CreativeModeTab$TabVisibility;)V: accept -> m_246267_
 Conflicting propagated mapping for net/minecraft/world/entity/LivingEntity/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V from net/minecraft/world/entity/player/Player/lambda$addAdditionalSaveData$3(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/Tag;)V: lambda$addAdditionalSaveData$3 -> m_219754_
 Adding extras
 Sorting
@@ -176,9 +180,21 @@ Writing Output: D:\AAAAAAAAAAAAAAAA\lord_of_warden\build\reobfJar\output.jar
   assets/lord_of_warden/lang/
   assets/lord_of_warden/lang/en_us.json
   assets/lord_of_warden/lang/zh_cn.json
+  assets/lord_of_warden/models/
+  assets/lord_of_warden/models/item/
+  assets/lord_of_warden/models/item/purify_potion.json
   assets/lord_of_warden/textures/
   assets/lord_of_warden/textures/entities/
   assets/lord_of_warden/textures/entities/biomass.png
+  assets/lord_of_warden/textures/item/
+  assets/lord_of_warden/textures/item/purifypotion.png
+  assets/lord_of_warden/textures/item/purifypotion.png.mcmeta
+  assets/lord_of_warden/textures/logow.png
+  data/
+  data/lord_of_warden/
+  data/lord_of_warden/recipes/
+  data/lord_of_warden/recipes/purifypotionrec.json
+  logo.png
   net/
   net/entropy/
   net/entropy/lordofwarden/
@@ -196,12 +212,18 @@ Writing Output: D:\AAAAAAAAAAAAAAAA\lord_of_warden\build\reobfJar\output.jar
   net/entropy/lordofwarden/init/LordOfWardenModEntities.class
   net/entropy/lordofwarden/init/LordOfWardenModEntityRenderers.class
   net/entropy/lordofwarden/init/LordOfWardenModGameRules.class
+  net/entropy/lordofwarden/init/LordOfWardenModItems.class
+  net/entropy/lordofwarden/init/LordOfWardenModTabs.class
+  net/entropy/lordofwarden/item/
+  net/entropy/lordofwarden/item/PurifyPotionItem.class
   net/entropy/lordofwarden/procedures/
   net/entropy/lordofwarden/procedures/AtktargetProcedure.class
   net/entropy/lordofwarden/procedures/BiomassShiTiChuShiShengChengShiProcedure.class
   net/entropy/lordofwarden/procedures/CansummonProcedure.class
   net/entropy/lordofwarden/procedures/Infec1Procedure.class
   net/entropy/lordofwarden/procedures/Infec2Procedure.class
+  net/entropy/lordofwarden/procedures/PurifyOtherMobsProcedure.class
+  net/entropy/lordofwarden/procedures/PurifyPotionDangWanJiaWanChengShiYongWuPinShiProcedure.class
   net/entropy/lordofwarden/procedures/SculkCatalystinfectProcedure.class
   net/entropy/lordofwarden/procedures/SkinProcedure.class
   net/entropy/lordofwarden/procedures/TeamProcedure.class

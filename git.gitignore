@@ -1,8 +1,26 @@
+# Gradle
 .mcreator/
-build/
-out/
 .gradle/
+build/
+run/
+out/
+*.jar
+*.zip
+
+# IDE
 .idea/
 *.iml
-*.DS_Store
+*.ipr
+*.iws
+.vscode/
+eclipse/
+*.launch
+
+# OS
 Thumbs.db
+.DS_Store
+
+# Forge
+*.log
+crash-reports/
+saves/

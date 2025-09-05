@@ -34,7 +34,7 @@ public static void onLivingDeath(LivingDeathEvent event) {
     BlockPos deathPos = victim.blockPosition();
 
         // 30 格内找幽匿催发体
-        BlockPos catalystPos = findSculkCatalystNearby(level, deathPos, 30);
+        BlockPos catalystPos = findSculkCatalystNearby(level, deathPos, 15);
         if (catalystPos == null) return;
 
         // 根据最大生命值选择实体
@@ -49,7 +49,7 @@ public static void onLivingDeath(LivingDeathEvent event) {
             entitySupplier = () -> LordOfWardenModEntities.BIOMASS_3.get();
         }
 
-        // 在催发体 8 格内生成
+        // 在催发体 4 格内生成
         spawnEntityNear(level, catalystPos, 4, entitySupplier);
     }
 

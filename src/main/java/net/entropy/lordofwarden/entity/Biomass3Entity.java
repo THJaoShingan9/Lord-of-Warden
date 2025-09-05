@@ -31,7 +31,7 @@ public class Biomass3Entity extends PathfinderMob {
 	public Biomass3Entity(EntityType<Biomass3Entity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
-		xpReward = 500;
+		xpReward = 250;
 		setNoAi(false);
 		setPersistenceRequired();
 	}

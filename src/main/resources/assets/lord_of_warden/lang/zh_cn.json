@@ -1,10 +1,13 @@
 {
+  "item.lord_of_warden.purify_potion": "净化药水",
   "gamerule.wardeninfectionchance.description": "幽匿感染其它生物的概率（最大100%）",
   "gamerule.wardeninfectionchance": "幽匿感染其它生物的概率",
   "translation.lfw.sculk": "幽匿 ",
   "gamerule.wardeninfectionblock": "幽匿感染方块的概率",
   "entity.lord_of_warden.biomass_2": "中等生物质",
   "gamerule.wardeninfectionblock.description": "幽匿感染方块的概率（最大100%）",
+  "item.lord_of_warden.purify_potion.description_0": "饮用以消除自身的幽匿感染。",
   "entity.lord_of_warden.biomass": "生物质",
-  "entity.lord_of_warden.biomass_3": "大型生物质"
+  "entity.lord_of_warden.biomass_3": "大型生物质",
+  "item.lord_of_warden.purify_potion.description_1": "Shift右键其它生物，移除其它生物的幽匿感染。"
 }

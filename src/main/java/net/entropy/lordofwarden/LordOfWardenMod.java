@@ -17,6 +17,8 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.entropy.lordofwarden.init.LordOfWardenModTabs;
+import net.entropy.lordofwarden.init.LordOfWardenModItems;
 import net.entropy.lordofwarden.init.LordOfWardenModEntities;
 
 import java.util.function.Supplier;
@@ -39,7 +41,10 @@ public class LordOfWardenMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
+		LordOfWardenModItems.REGISTRY.register(bus);
 		LordOfWardenModEntities.REGISTRY.register(bus);
+
+		LordOfWardenModTabs.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

@@ -1,13 +1,14 @@
 modLoader="javafml"
 loaderVersion="[47,)"
-license="All Rights Reserved"
+license="MIT License"
 
 [[mods]]
 modId="lord_of_warden"
-version="1.0.0"
+version="1.0.3"
 displayName="lord of warden"
 displayURL="https://modrinth.com/user/Entropy777"
-credits="Entropy"
+logoFile="logo.png"
+credits="Entropy\uFF0C\u6B87\u7384\u9690\u58EB\uFF0C\u51B0\u9547\u67E0\u6AAC\u51C9\u767D\u6C34\uFF0C\u8C22ECD-1\uFF0C\u9AD8\u58A8\u67D3"
 authors="Entropy"
 
 # Start of user code block mod configuration

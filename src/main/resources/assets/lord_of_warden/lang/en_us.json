@@ -1,10 +1,13 @@
 {
+  "item.lord_of_warden.purify_potion": "Purify Potion",
   "gamerule.wardeninfectionchance.description": "warden infection chance(MAX100%)",
   "gamerule.wardeninfectionchance": "warden infection chance",
   "translation.lfw.sculk": "Sculk ",
   "gamerule.wardeninfectionblock": "warden block infection chance",
   "entity.lord_of_warden.biomass_2": "Biomass 2",
   "gamerule.wardeninfectionblock.description": "warden block infection chance(MAX100%)",
+  "item.lord_of_warden.purify_potion.description_0": "Drink it to remove sculk infection.",
   "entity.lord_of_warden.biomass": "Biomass",
-  "entity.lord_of_warden.biomass_3": "Biomass 3"
+  "entity.lord_of_warden.biomass_3": "Biomass 3",
+  "item.lord_of_warden.purify_potion.description_1": "Shift+Right click on other mobs,to remove sculk infection."
 }
